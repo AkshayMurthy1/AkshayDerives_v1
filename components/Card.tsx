@@ -22,7 +22,7 @@ export default function Card({ title, description, href, imageSrc }: CardProps) 
           />
         )}
         <div className="p-4">
-          <h3 className="text-xl font-bold mb-1">{title}</h3>
+          <h3 className="text-xl text-green-950 font-bold mb-1">{title}</h3>
           <p className="text-gray-600 text-sm">{description}</p>
         </div>
       </div>
